@@ -1,0 +1,36 @@
+{
+  "name": "Summary Card",
+  "version": "23.1.1",
+  "description": "Displays Summary and Detail values in the style of a retro video game magazine review. Usable as Single",
+  "keywords": ["card", "summary", "template", "component", "retro"],
+  "homepage": "https://github.com/lufcmattylad/Summary-Card-Template-Component",
+  "bugs": {
+    "url": "https://github.com/lufcmattylad/Summary-Card-Template-Component/issues",
+    "email": "lufcmattylad+summary-card-plugin@gmail.com"
+  },
+  "license": "MIT",
+  "commercial": "No",
+  "author": {
+    "name": "Matt Mulvaney",
+    "email": "lufcmattylad+contact@gmail.com",
+    "url": "https://x.com/Matt_Mulvaney",
+    "twitter": "Matt_Mulvaney",
+    "donationUrl": "https://www.justgiving.com/saintmichaelshospice"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lufcmattylad/Summary-Card-Template-Component.git"
+  },
+  "oracle": {
+    "versions": ["23.2.0", "21.1.0", "19.1.0"],
+    "apex": {
+      "versions": ["23.1.0"],
+      "plugin": {
+        "internalName": "COM.LUFCMATTYLAD.SUMMARY_CARD",
+        "type": "template component",
+        "demo": "https://apex.oracle.com/pls/apex/r/luf/challenge",
+        "previewImage": "https://raw.githubusercontent.com/lufcmattylad/Summary-Card-Template-Component/main/assets/preview.jpg?raw=true"
+      }
+    }
+  }
+}
