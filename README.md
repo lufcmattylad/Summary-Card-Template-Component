@@ -5,7 +5,7 @@ Displays Summary and Detail values in the style of a retro video game magazine r
 - Usable as Single
 
 ## Preview
-![Preview image](assets/preview.jpg)
+![Preview image](assets/preview.png)
 
 ## Demo Application
 You can find a Demo Application [here](https://apex.oracle.com/pls/apex/r/luf/challenge)
@@ -46,11 +46,30 @@ from dual
 
 5. Assign Attributes as below
 
-![Preview image](assets/region_settings.jpg)
+![Preview image](assets/region_settings.png)
 
 ## Other Ideas
 
-![Preview image](assets/preview-alt.jpg)
+![Preview image](assets/preview-alt.png)
+
+## Version History
+
+### 23.2.1 (Dec 2023)
+
+#### Fixes
+- Fixed button link
+- Adjusted the confetti z-index (allows modals to close)
+- Removed redundant HTML attrbutes post-render
+
+#### Enhancements
+- Button only appears when Link is present + corrected margin
+  - For a more compact view, use a NULL Result_Text and a NULL Link.
+- Added Themes
+  - Purple (Default) : Original Purple Theme 
+  - Universal : Aligned to the Universal Theme. Use this for Theme consistent colours + Dark Mode support.
+
+### 23.1.1 (Aug 2023)
+- Initial Release
 
 ## Credits
 
@@ -60,4 +79,4 @@ Adapted to APEX by Matt Mulvaney (https://x.com/Matt_Mulvaney)
 
 ## Donations
 
-Donations to [Saint Michael's Hospice](https://www.justgiving.com/saintmichaelshospice) are welcomee
+Donations to [Saint Michael's Hospice](https://saintmichaelshospice.org/support-our-work/donate/one-off-donation/) are welcome
